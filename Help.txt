@@ -1,0 +1,112 @@
+%s <command> options...
+
+This tool is a generic backup system for Mac OS X Leopard available as an open-source project under GPL v3.
+For more information, please refer to the official web site at http://code.google.com/p/mathusalem/.
+
+Send a SIGQUIT (Ctrl-\\) or SIGTERM to the tool to abort the command currently running.
+If you send a SIGINT (Ctrl-C) instead, it will abort any active file transfer and prompt the user (assuming the --interactive option was passed).
+
+Supported commands:
+
+help
+	Display this help
+
+scan -source dirPath [-excludePath path] [-excludeName name] [--excludeHidden]
+List recursively the contents of a directory.
+	-source: path to directory to source
+	-excludePath: one or more relative paths to exclude
+	-excludeName: one or more file or directory names to exclude
+	--excludeHidden: exclude files or directories hidden in the GUI e.g. starting with '.'
+
+diff -source dirPath -target dirPath [-excludePath path] [-excludeName name] [--excludeHidden]
+List the differences between a target directory and a source one.
+	-source: path to source directory
+	-target: path to target directory
+	-excludePath: one or more relative paths to exclude
+	-excludeName: one or more file or directory names to exclude
+	--excludeHidden: exclude files or directories hidden in the GUI e.g. starting with '.'
+
+sync -source dirPath -target dirPath [-excludePath path] [-excludeName name] [--excludeHidden] [--atomic]
+Synchronizes the content of a target directory with a source one.
+	-source: path to source directory
+	-target: path to target directory
+	-excludePath: one or more relative paths to exclude
+	-excludeName: one or more file or directory names to exclude
+	--excludeHidden: exclude files or directories hidden in the GUI e.g. starting with '.'
+	--atomic: ensure the target still matches the source even if the source has changed during the synchronization
+
+backup -source dirPath -destination path [-excludePath path] [-excludeName name] [--excludeHidden] [--atomic] [--diskImage] [--compressed] [-segment size] [-password password] [-preExecutable path] [-postExecutable path] [--dryRun]
+Creates a new backup or updates an existing one and changes its settings.
+	-source: path to directory to backup
+	-destination: path or URL to backup directory (see below)
+	-excludePath: one or more relative paths to exclude
+	-excludeName: one or more file or directory names to exclude
+	--excludeHidden: exclude files or directories hidden in the GUI e.g. starting with '.'
+	--atomic: ensure the backup still matches the source even if the source has changed during the backup
+	--diskImage: create disk images instead of archives
+		(uncompressed disk images do not require performing first a temporary snapshot in the scratch directory, but are not compatible with the -segment option)
+	--compressed: create compressed archives or disk images
+	-segment: divide the archive or disk image in segments of a maximum uncompressed size expressed in Mb
+	-password: password to encrypt the archives with (disk images only)
+	-preExecutable: launch an executable (application, AppleScript or command line tool) before running the command and abort if the executable does not exit successfully (the following arguments are passed: source path, destination path or URL)
+	-postExecutable: launch an executable (application, AppleScript or command line tool) after running the command (the following arguments are passed: source path, destination path or URL, and the command result on success or nothing on failure)
+	--fullBackup: force a full backup instead of an incremental one
+	--dryRun: show changes instead of creating or updating the backup
+
+update -backup path [-password password] [--dryRun]
+Updates a previously created backup.
+	-backup: path or URL to backup directory (see below)
+	-password: password to encrypt the archives with (disk images only)
+	--dryRun: show changes instead of updating the backup
+	
+list -backup path
+Lists all revisions of a previously created backup.
+	-backup: path or URL to backup directory (see below)
+
+info -backup path [-revision revision]
+Retrieves information about a specific revision of a previously created backup.
+	-backup: path or URL to backup directory (see below)
+	-revision: revision of item to restore (assume backup head revision if unspecified)
+
+restore -backup path [-item path] [-revision revision] [-target path] [-password password]
+Restores completely or only a given file or directory from a previously created backup.
+	-backup: path or URL to backup directory (see below)
+	-item: path to item to restore
+	-revision: revision of item to restore (assume backup head revision if unspecified)
+	-target: path where to restore the item
+	-password: password to decrypt the archives with (disk images only)
+
+delete -backup path
+Delete all revisions of a previously created backup.
+	-backup: path or URL to backup directory (see below)
+
+Global options:
+	[-scratch path]: path to custom temporary directory to use
+	[--checkReachability]: make sure that the destination (and the source if applicable) is reachable before running the command, otherwise return immediately
+	[--plist]: in case of success, output the result of the command as an XML property list
+	[--interactive]: in case of transfer failure, prompt user to try again
+	[--progress]: display progress during execution
+	[-interval seconds]: run the command regularly at an interval expressed in seconds
+
+Global options only applicable when launching the application version of Mathusalem from the command line:
+	[--noGUI]: run as a pure command-line tool and don't show any user interface
+	[--prompt]: prompt the user before starting the backup (has no effect if -noGUI is specified)
+	[--foreground]: show the window in front of all other applications (has no effect if -noGUI is specified)
+	
+Example valid file paths:
+	Relative to current directory: 'SomeDirectory'
+	Relative to user directory: '~/SomeDirectory'
+	Absolute: '/Users/pol/SomeDirectory'
+
+Example valid URLs (passwords are automatically retrieved from the default Keychain if absent - you can also specify a custom port to use with the ':XXX' suffix after the host name):
+	File: 'file://localhost/SomeDirectory'
+	WebDAV: 'http://user:password@example.com/SomeDirectory'
+	Secure WebDAV: 'https://user:password@example.com/SomeDirectory'
+	iDisk (local user only): 'http://idisk.mac.com/SomeDirectory'
+	iDisk (any user): 'http://user:password@idisk.mac.com/SomeDirectory'
+	AFP: 'afp://user:password@example.com/SomeVolume/SomeDirectory'
+	SMB: 'smb://user:password@example.com/SomeVolume/SomeDirectory'
+	FTP: 'ftp://user:password@example.com/SomeDirectory'
+	SFTP: 'ssh://user:password@example.com/SomeDirectory'
+	Amazon S3: 'http://accessKeyID:secretAccessKey@some-bucket.s3.amazonaws.com'
+	Secured Amazon S3: 'https://accessKeyID:secretAccessKey@some-bucket.s3.amazonaws.com'

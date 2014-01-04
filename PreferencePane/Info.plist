@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleIconFile</key>
+	<string>Icon</string>
+	<key>CFBundleIdentifier</key>
+	<string>net.pol-online.mathusalem.preference-pane</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.5.0</string>
+	<key>CFBundleVersion</key>
+	<string>__SVN_REVISION__</string>
+	<key>CFBundleShortVersionString</key>
+	<string>__VERSION__</string>
+	<key>NSMainNibFile</key>
+	<string>Mathusalem_PreferencePane</string>
+	<key>NSPrefPaneIconFile</key>
+	<string>Icon</string>
+	<key>NSPrefPaneIconLabel</key>
+	<string>Mathusalem</string>
+	<key>NSPrincipalClass</key>
+	<string>Mathusalem_PreferencePane</string>
+	<key>UpdateURL</key>
+	<string>http://www.pol-online.net/_mathusalem/update.php</string>
+	<key>RegistrationURL</key>
+	<string>http://www.pol-online.net/_mathusalem/registration.php</string>
+</dict>
+</plist>

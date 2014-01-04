@@ -1,0 +1,78 @@
+﻿/*
+	This file is part the backup utility Mathusalem for Mac OS X.
+	Copyright (C) 2008-2009 Pierre-Olivier Latour <info@pol-online.net>
+	
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+"INVALID_TITLE" = "Arguments incorrects pour le processus!";
+"INVALID_MESSAGE" = "Lorsqu'elle est utilisée directement l'application Mathusalem doit être lancée depuis la ligne de commande avec les commandes 'backup' ou 'restore'.";
+"INVALID_DEFAULT_BUTTON" = "Quitter";
+
+"PROMPT_TITLE" = "Une sauvegarde va commencer:";
+"PROMPT_DEFAULT_BUTTON" = "Démarrer";
+"PROMPT_OTHER_BUTTON" = "Annuler";
+"PROMPT_MESSAGE" = "Si vous décider de l'annuler, elle recommencera au prochain moment prévu.";
+
+"ABORT_BACKUP_TITLE" = "Êtes-vous sûre de vouloir arrêter la sauvegarde en cours?";
+"ABORT_BACKUP_MESSAGE" = "Vous allez devoir recommencer cette sauvegarde depuis le début.";
+"ABORT_RESTORE_TITLE" = "Êtes-vous sûre de vouloir arrêter la restauration en cours?";
+"ABORT_RESTORE_MESSAGE" = "Les fichiers restaurés ne seront pas conservés.";
+"ABORT_DEFAULT_BUTTON" = "Arrêter";
+"ABORT_OTHER_BUTTON" = "Annuler";
+
+"ERROR_DEFAULT_BUTTON" = "OK";
+
+"STATUS-0" = "En attente";
+"STATUS-1" = "Connexion à la destination…";
+"STATUS-2" = "Vérification de la destination…";
+"STATUS-3" = "Parcours de la source…";
+"STATUS-4" = "Copie de %@ éléments…";
+"STATUS-5" = "Création de l'archive…";
+"STATUS-6" = "Extraction de l'archive…";
+"STATUS-7" = "Création de l'image disque…";
+"STATUS-8" = "Montage de l'image disque…";
+"STATUS-9" = "Téléchargement du fichier %@depuis la destination…";
+"STATUS-10" = "Envoie du fichier %@à la destination…";
+"STATUS-11" = "Effacement du fichier à la destination…";
+"STATUS-12" = "Exécutable en cours…";
+
+"STATUS-TRANSFER-PAUSED" = "(Échec du transfert de fichier, cliquez sur le bouton de relance pour réessayer)";
+
+"SEGMENT-FORMAT" = "Traitement du segment %i sur %i: ";
+
+"STATUS-MB-FORMAT" = "%.1f Mo ";
+"STATUS-KB-FORMAT" = "%i Ko ";
+
+"ERROR-1" = "Impossible d'accéder:";
+"ERROR-2" = "Impossible d'obtenir les informations de l'élément:";
+"ERROR-3" = "Impossible de configurer les permissions de l'élément:";
+"ERROR-4" = "Impossible de déplacer l'élément:";
+"ERROR-5" = "Impossible d'effacer l'élément:";
+"ERROR-6" = "Impossible de copier l'élément:";
+"ERROR-7" = "Impossible de créer le dossier:";
+"ERROR-8" = "Impossible d'écrire le fichier:";
+"ERROR-9" = "Impossible de créer l'archive:";
+"ERROR-10" = "Impossible d'extraire l'archive:";
+"ERROR-11" = "Impossible de créer l'image disque:";
+"ERROR-12" = "Impossible de monter l'image disque:";
+"ERROR-13" = "Impossible de démonter l'image disque:";
+"ERROR-14" = "Impossible de lire le fichier BOM:";
+"ERROR-15" = "Impossible d'obtenir une entrée du BOM:";
+"ERROR-16" = "Impossible de vérifier la destination:";
+"ERROR-17" = "Impossible de télécharger le fichier depuis la destination:";
+"ERROR-18" = "Impossible d'envoyer le fichier à la destination:";
+"ERROR-19" = "Impossible d'effacer le fichier à la destination:";
+"ERROR-20" = "Impossible de lancer l'exécutable:";
+"ERROR-21" = "Pas assez d'espace libre sur le disque local:";

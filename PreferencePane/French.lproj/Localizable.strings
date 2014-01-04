@@ -1,0 +1,74 @@
+﻿/*
+	This file is part the backup utility Mathusalem for Mac OS X.
+	Copyright (C) 2008-2009 Pierre-Olivier Latour <info@pol-online.net>
+	
+	This program is free software: you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+"HELP_URL" = "http://code.google.com/p/mathusalem/w/list";
+
+"BACKUP_NAME" = "Ma sauvegarde (%i)";
+
+"DEFAULT_BUCKET" = "mon-bucket";
+
+"VALIDATE_NAME" = "Le nom \"%@\" n'est pas valide";
+"VALIDATE_DIRECTORY" = "Le chemin \"%@\" n'est pas valide ou n'existe pas";
+"VALIDATE_SOURCE" = "Mathusalem n'est pas conçu pour cloner un disque entier ou un dossier d'utilisateur complet. Veuillez choisir un dossier spécifique à sauvegarder (vous pouvez par contre créer plusieurs sauvegardes).";
+"VALIDATE_HOST" = "La machine \"%@\" n'est pas valide";
+"VALIDATE_PATH" = "Le chemin \"%@\" n'est pas valide";
+"VALIDATE_DESTINATION" = "La destination \"%@\" n'est pas unique";
+"VALIDATE_BUCKET" = "Le 'bucket' \"%@\" n'est pas valide";
+"VALIDATE_PASSWORD" = "Les mots de passe ne correspondent pas";
+"VALIDATE_EXECUTABLE" = "L'exécutable \"%@\" n'est pas valide ou n'existe pas";
+
+"BACKUP_REMOVE_TITLE" = "Êtes-vous sûre de vouloir supprimer la sauvegarde sélectionnée?";
+"BACKUP_REMOVE_DEFAULT_BUTTON" = "Annuler";
+"BACKUP_REMOVE_OTHER_BUTTON" = "Supprimer seulement la configuration";
+"BACKUP_REMOVE_ALTERNATE_BUTTON" = "Supprimer la configuration et tous les fichiers de sauvegarde";
+"BACKUP_REMOVE_MESSAGE" = "Vous pouvez choisir de ne supprimer que le fichier local de configuration de la sauvegarde, ou à la fois ce fichier ainsi que tous les fichiers de données de la sauvegarde à la destination.";
+
+"DELETE_FAILED_TITLE" = "Un ou plusieurs fichiers de données de la sauvegarde à la destination n'ont pû être effacés";
+"DELETE_FAILED_DEFAULT_BUTTON" = "OK";
+
+"UNSELECT_TITLE" = "Voulez-vous enregistrer les changements effectués?";
+"UNSELECT_DEFAULT_BUTTON" = "Enregistrer";
+"UNSELECT_OTHER_BUTTON" = "Annuler";
+"UNSELECT_ALTERNATE_BUTTON" = "Ne pas enregistrer";
+"UNSELECT_MESSAGE" = "Vos changements seront perdus si vous ne les enregistrez pas.";
+
+"UPDATE_TITLE" = "Une nouvelle version %@ de Mathusalem est disponible";
+"UPDATE_DEFAULT_BUTTON" = "Télécharger maintenant";
+"UPDATE_OTHER_BUTTON" = "Télécharger plus tard";
+"UPDATE_MESSAGE" = "Vous avez actuellement la version %@ installée. Souhaitez-vous télécharger cette nouvelle version dans votre dossier Téléchargments?";
+
+"UPDATE_SUCCESS_TITLE" = "Mise à jour téléchargée avec succès";
+"UPDATE_SUCCESS_DEFAULT_BUTTON" = "OK";
+"UPDATE_SUCCESS_MESSAGE" = "Vous pouvez désormais quitter les Préférences Système et double-cliquer sur la nouvelle version du panneau de préférences Mathusalem dans votre dossier Téléchargments afin de l'installer.";
+
+"UPDATE_FAILED_TITLE" = "Une erreur est survenue pendant le téléchargement de la mise à jour";
+"UPDATE_FAILED_DEFAULT_BUTTON" = "OK";
+"UPDATE_FAILED_MESSAGE" = "Veuillez réessayer plus tard.";
+
+"BUCKET_REMOVE_TITLE" = "Êtes-vous sûre de vouloir supprimer le 'bucket' \"%@\"?";
+"BUCKET_REMOVE_DEFAULT_BUTTON" = "Annuler";
+"BUCKET_REMOVE_OTHER_BUTTON" = "Supprimer le 'bucket'";
+"BUCKET_REMOVE_MESSAGE" = "Supprimer le 'bucket' supprimera aussi toutes ses 'keys'.";
+
+"CONFIRM_TITLE" = "Êtes-vous sûre de vouloir remplacer \"%@\"?";
+"CONFIRM_DEFAULT_BUTTON" = "Remplacer";
+"CONFIRM_OTHER_BUTTON" = "Annuler";
+"CONFIRM_MESSAGE" = "Vous ne pouvez pas annuler cette opération.";
+
+"LOADING_ENTRY" = "<EN CHARGEMENT...>";
+"UNAVAILABLE_ENTRY" = "<INDISPONIBLE>";

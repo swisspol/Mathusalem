@@ -1,0 +1,1066 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		23D49B780E27F6DF0024EB93 /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 23D49B840E27F7240024EB93 /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				23D49B7C0E27F6E30024EB93 /* PBXTargetDependency */,
+				E23958810E2858A100FDCF75 /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		23529B5E0E4A3F40004715FE /* NSURL+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 23529B5D0E4A3F40004715FE /* NSURL+Parameters.m */; };
+		23529B5F0E4A3F40004715FE /* NSURL+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 23529B5D0E4A3F40004715FE /* NSURL+Parameters.m */; };
+		23529B600E4A3F40004715FE /* NSURL+Parameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 23529B5D0E4A3F40004715FE /* NSURL+Parameters.m */; };
+		23D49B3F0E27F0C20024EB93 /* BackupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B2E0E27F0C20024EB93 /* BackupController.m */; };
+		23D49B400E27F0C20024EB93 /* DirectoryScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B300E27F0C20024EB93 /* DirectoryScanner.m */; };
+		23D49B420E27F0C20024EB93 /* DiskImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B340E27F0C20024EB93 /* DiskImageController.m */; };
+		23D49B430E27F0C20024EB93 /* FileTransferController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B360E27F0C20024EB93 /* FileTransferController.m */; };
+		23D49B440E27F0C20024EB93 /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B380E27F0C20024EB93 /* Keychain.m */; };
+		23D49B450E27F0C20024EB93 /* NSData+GZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B3A0E27F0C20024EB93 /* NSData+GZip.m */; };
+		23D49B460E27F0C20024EB93 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B3C0E27F0C20024EB93 /* Task.m */; };
+		23D49B820E27F7010024EB93 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E75D240E18644400DEAEBE /* libz.dylib */; };
+		23D49B830E27F7020024EB93 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E294A1ED0E25608500E194D5 /* libcrypto.dylib */; };
+		23D49B850E27F7320024EB93 /* BackupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B2E0E27F0C20024EB93 /* BackupController.m */; };
+		23D49B860E27F7390024EB93 /* DirectoryScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B300E27F0C20024EB93 /* DirectoryScanner.m */; };
+		23D49B870E27F73B0024EB93 /* DiskImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B340E27F0C20024EB93 /* DiskImageController.m */; };
+		23D49B880E27F73C0024EB93 /* FileTransferController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B360E27F0C20024EB93 /* FileTransferController.m */; };
+		23D49B890E27F73D0024EB93 /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B380E27F0C20024EB93 /* Keychain.m */; };
+		23D49B8A0E27F73E0024EB93 /* NSData+GZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B3A0E27F0C20024EB93 /* NSData+GZip.m */; };
+		23D49B8B0E27F73F0024EB93 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B3C0E27F0C20024EB93 /* Task.m */; };
+		23D49B8C0E27F7400024EB93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; };
+		23D49BA00E27F83C0024EB93 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D49B9F0E27F83C0024EB93 /* AppKit.framework */; };
+		23D49C5C0E27F8BB0024EB93 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2ADF72C0E172FB200C0734B /* ApplicationServices.framework */; };
+		23D49C5E0E27F8C00024EB93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B39C280E171F7D0047CE46 /* Security.framework */; };
+		23D49C600E27F8C50024EB93 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E294A1ED0E25608500E194D5 /* libcrypto.dylib */; };
+		23D49C620E27F8C90024EB93 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E75D240E18644400DEAEBE /* libz.dylib */; };
+		23D49C760E27F9240024EB93 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B39C280E171F7D0047CE46 /* Security.framework */; };
+		23D49C830E27F9960024EB93 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23D49C810E27F9960024EB93 /* MainMenu.xib */; };
+		23D49C970E27FC440024EB93 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49C960E27FC440024EB93 /* AppController.m */; };
+		8DD76F9A0486AA7600D96B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
+		E2160C4D0E44ED4F000EF023 /* FileTransferController_FTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2160C4C0E44ED4F000EF023 /* FileTransferController_FTP.m */; };
+		E2160C4E0E44ED4F000EF023 /* FileTransferController_FTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2160C4C0E44ED4F000EF023 /* FileTransferController_FTP.m */; };
+		E2160C4F0E44ED4F000EF023 /* FileTransferController_FTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2160C4C0E44ED4F000EF023 /* FileTransferController_FTP.m */; };
+		E2160C5C0E44EE0F000EF023 /* FileTransferController_HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2160C5B0E44EE0F000EF023 /* FileTransferController_HTTP.m */; };
+		E2160C5D0E44EE0F000EF023 /* FileTransferController_HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2160C5B0E44EE0F000EF023 /* FileTransferController_HTTP.m */; };
+		E2160C5E0E44EE0F000EF023 /* FileTransferController_HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2160C5B0E44EE0F000EF023 /* FileTransferController_HTTP.m */; };
+		E2160CA30E44EF85000EF023 /* FileTransferController_Local.m in Sources */ = {isa = PBXBuildFile; fileRef = E2160CA20E44EF85000EF023 /* FileTransferController_Local.m */; };
+		E2160CA40E44EF85000EF023 /* FileTransferController_Local.m in Sources */ = {isa = PBXBuildFile; fileRef = E2160CA20E44EF85000EF023 /* FileTransferController_Local.m */; };
+		E2160CA50E44EF85000EF023 /* FileTransferController_Local.m in Sources */ = {isa = PBXBuildFile; fileRef = E2160CA20E44EF85000EF023 /* FileTransferController_Local.m */; };
+		E22AE6890E2A92B9001712E6 /* BackupController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B2E0E27F0C20024EB93 /* BackupController.m */; };
+		E22AE68D0E2A92C3001712E6 /* DirectoryScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B300E27F0C20024EB93 /* DirectoryScanner.m */; };
+		E22AE68E0E2A92C4001712E6 /* DiskImageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B340E27F0C20024EB93 /* DiskImageController.m */; };
+		E22AE68F0E2A92C5001712E6 /* FileTransferController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B360E27F0C20024EB93 /* FileTransferController.m */; };
+		E22AE6940E2A92DC001712E6 /* NSData+GZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B3A0E27F0C20024EB93 /* NSData+GZip.m */; };
+		E22AE6950E2A92E3001712E6 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E75D240E18644400DEAEBE /* libz.dylib */; };
+		E22AE6960E2A92E3001712E6 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E294A1ED0E25608500E194D5 /* libcrypto.dylib */; };
+		E22B28EC0E31520A00572ADB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E22B28EB0E31520900572ADB /* WebKit.framework */; };
+		E22EB9640E296F78002C2A5C /* Mathusalem_Backup.m in Sources */ = {isa = PBXBuildFile; fileRef = E22EB9630E296F78002C2A5C /* Mathusalem_Backup.m */; };
+		E22EB9CB0E2979C6002C2A5C /* Keychain.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B380E27F0C20024EB93 /* Keychain.m */; };
+		E22EB9D70E297A65002C2A5C /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2B39C280E171F7D0047CE46 /* Security.framework */; };
+		E22EBA630E29868A002C2A5C /* Green.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E22EBA610E29868A002C2A5C /* Green.tiff */; };
+		E22EBA640E29868A002C2A5C /* Red.tiff in Resources */ = {isa = PBXBuildFile; fileRef = E22EBA620E29868A002C2A5C /* Red.tiff */; };
+		E23958720E28576600FDCF75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E23958700E28576600FDCF75 /* InfoPlist.strings */; };
+		E23958840E2858C400FDCF75 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D49B9F0E27F83C0024EB93 /* AppKit.framework */; };
+		E23958880E2858DA00FDCF75 /* PreferencePanes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E23958870E2858DA00FDCF75 /* PreferencePanes.framework */; };
+		E23958900E28594000FDCF75 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D49B3C0E27F0C20024EB93 /* Task.m */; };
+		E239589D0E285DD400FDCF75 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E239589B0E285DD400FDCF75 /* Localizable.strings */; };
+		E239589F0E285DF100FDCF75 /* Mathusalem_PreferencePane.m in Sources */ = {isa = PBXBuildFile; fileRef = E239586E0E28573B00FDCF75 /* Mathusalem_PreferencePane.m */; };
+		E23958A00E285DF400FDCF75 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E23958660E28573B00FDCF75 /* InfoPlist.strings */; };
+		E23958A10E285DF600FDCF75 /* Mathusalem_PreferencePane.xib in Resources */ = {isa = PBXBuildFile; fileRef = E239586A0E28573B00FDCF75 /* Mathusalem_PreferencePane.xib */; };
+		E23958A60E285E3200FDCF75 /* Mathusalem.app in Resources */ = {isa = PBXBuildFile; fileRef = 23D49B720E27F6D10024EB93 /* Mathusalem.app */; };
+		E26084CD0E97FEC100BCA27C /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B20E97FEC100BCA27C /* channel.c */; };
+		E26084CE0E97FEC100BCA27C /* comp.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B30E97FEC100BCA27C /* comp.c */; };
+		E26084CF0E97FEC100BCA27C /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B40E97FEC100BCA27C /* crypt.c */; };
+		E26084D00E97FEC100BCA27C /* hostkey.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B50E97FEC100BCA27C /* hostkey.c */; };
+		E26084D10E97FEC100BCA27C /* kex.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B60E97FEC100BCA27C /* kex.c */; };
+		E26084D30E97FEC100BCA27C /* mac.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084BC0E97FEC100BCA27C /* mac.c */; };
+		E26084D50E97FEC100BCA27C /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C00E97FEC100BCA27C /* misc.c */; };
+		E26084D60E97FEC100BCA27C /* openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C20E97FEC100BCA27C /* openssl.c */; };
+		E26084D70E97FEC100BCA27C /* packet.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C40E97FEC100BCA27C /* packet.c */; };
+		E26084D80E97FEC100BCA27C /* pem.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C50E97FEC100BCA27C /* pem.c */; };
+		E26084D90E97FEC100BCA27C /* publickey.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C60E97FEC100BCA27C /* publickey.c */; };
+		E26084DA0E97FEC100BCA27C /* scp.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C70E97FEC100BCA27C /* scp.c */; };
+		E26084DB0E97FEC100BCA27C /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C80E97FEC100BCA27C /* session.c */; };
+		E26084DC0E97FEC100BCA27C /* sftp.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C90E97FEC100BCA27C /* sftp.c */; };
+		E26084DD0E97FEC100BCA27C /* transport.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084CB0E97FEC100BCA27C /* transport.c */; };
+		E26084DE0E97FEC100BCA27C /* userauth.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084CC0E97FEC100BCA27C /* userauth.c */; };
+		E26084E10E97FEC100BCA27C /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B20E97FEC100BCA27C /* channel.c */; };
+		E26084E20E97FEC100BCA27C /* comp.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B30E97FEC100BCA27C /* comp.c */; };
+		E26084E30E97FEC100BCA27C /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B40E97FEC100BCA27C /* crypt.c */; };
+		E26084E40E97FEC100BCA27C /* hostkey.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B50E97FEC100BCA27C /* hostkey.c */; };
+		E26084E50E97FEC100BCA27C /* kex.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B60E97FEC100BCA27C /* kex.c */; };
+		E26084E80E97FEC100BCA27C /* mac.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084BC0E97FEC100BCA27C /* mac.c */; };
+		E26084EC0E97FEC100BCA27C /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C00E97FEC100BCA27C /* misc.c */; };
+		E26084EE0E97FEC100BCA27C /* openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C20E97FEC100BCA27C /* openssl.c */; };
+		E26084EF0E97FEC100BCA27C /* packet.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C40E97FEC100BCA27C /* packet.c */; };
+		E26084F00E97FEC100BCA27C /* pem.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C50E97FEC100BCA27C /* pem.c */; };
+		E26084F10E97FEC100BCA27C /* publickey.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C60E97FEC100BCA27C /* publickey.c */; };
+		E26084F20E97FEC100BCA27C /* scp.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C70E97FEC100BCA27C /* scp.c */; };
+		E26084F30E97FEC100BCA27C /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C80E97FEC100BCA27C /* session.c */; };
+		E26084F40E97FEC100BCA27C /* sftp.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C90E97FEC100BCA27C /* sftp.c */; };
+		E26084F60E97FEC100BCA27C /* transport.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084CB0E97FEC100BCA27C /* transport.c */; };
+		E26084F70E97FEC100BCA27C /* userauth.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084CC0E97FEC100BCA27C /* userauth.c */; };
+		E26085220E97FF5D00BCA27C /* channel.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B20E97FEC100BCA27C /* channel.c */; };
+		E26085230E97FF5D00BCA27C /* comp.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B30E97FEC100BCA27C /* comp.c */; };
+		E26085240E97FF5E00BCA27C /* crypt.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B40E97FEC100BCA27C /* crypt.c */; };
+		E26085250E97FF5F00BCA27C /* hostkey.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B50E97FEC100BCA27C /* hostkey.c */; };
+		E26085260E97FF5F00BCA27C /* kex.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084B60E97FEC100BCA27C /* kex.c */; };
+		E26085270E97FF6000BCA27C /* mac.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084BC0E97FEC100BCA27C /* mac.c */; };
+		E26085280E97FF6100BCA27C /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C00E97FEC100BCA27C /* misc.c */; };
+		E26085290E97FF6100BCA27C /* openssl.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C20E97FEC100BCA27C /* openssl.c */; };
+		E260852A0E97FF6200BCA27C /* packet.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C40E97FEC100BCA27C /* packet.c */; };
+		E260852B0E97FF6300BCA27C /* pem.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C50E97FEC100BCA27C /* pem.c */; };
+		E260852C0E97FF6300BCA27C /* publickey.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C60E97FEC100BCA27C /* publickey.c */; };
+		E260852D0E97FF6400BCA27C /* scp.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C70E97FEC100BCA27C /* scp.c */; };
+		E260852E0E97FF6400BCA27C /* session.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C80E97FEC100BCA27C /* session.c */; };
+		E260852F0E97FF6500BCA27C /* sftp.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084C90E97FEC100BCA27C /* sftp.c */; };
+		E26085300E97FF6500BCA27C /* transport.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084CB0E97FEC100BCA27C /* transport.c */; };
+		E26085310E97FF6600BCA27C /* userauth.c in Sources */ = {isa = PBXBuildFile; fileRef = E26084CC0E97FEC100BCA27C /* userauth.c */; };
+		E28606550F28CEE90032DF7D /* DataStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E28606540F28CEE90032DF7D /* DataStream.m */; };
+		E28606560F28CEE90032DF7D /* DataStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E28606540F28CEE90032DF7D /* DataStream.m */; };
+		E28606620F28CF1A0032DF7D /* DataStream.m in Sources */ = {isa = PBXBuildFile; fileRef = E28606540F28CEE90032DF7D /* DataStream.m */; };
+		E2890B990E2AF6560085AEE6 /* ValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = E2890B980E2AF6560085AEE6 /* ValueTransformers.m */; };
+		E28E75900E29221C00FE68CE /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E28E758E0E29221C00FE68CE /* Localizable.strings */; };
+		E2BC009E1877A1E500ED7153 /* MiniXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC009D1877A1E500ED7153 /* MiniXMLParser.m */; };
+		E2BC009F1877A1E500ED7153 /* MiniXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC009D1877A1E500ED7153 /* MiniXMLParser.m */; };
+		E2BC00A01877A1E500ED7153 /* MiniXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = E2BC009D1877A1E500ED7153 /* MiniXMLParser.m */; };
+		E2BC00A21877A28E00ED7153 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BC00A11877A28E00ED7153 /* libxml2.dylib */; };
+		E2BC00A31877A29C00ED7153 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BC00A11877A28E00ED7153 /* libxml2.dylib */; };
+		E2BC00A41877A2C000ED7153 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BC00A11877A28E00ED7153 /* libxml2.dylib */; };
+		E2C91B4F0E4D0EF4008C034B /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C91B4E0E4D0EF4008C034B /* NSData+Encryption.m */; };
+		E2C91B500E4D0EF4008C034B /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C91B4E0E4D0EF4008C034B /* NSData+Encryption.m */; };
+		E2C91B510E4D0EF4008C034B /* NSData+Encryption.m in Sources */ = {isa = PBXBuildFile; fileRef = E2C91B4E0E4D0EF4008C034B /* NSData+Encryption.m */; };
+		E2D21E2B0F4BDDCB000EEA78 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D21E2A0F4BDDCB000EEA78 /* libcurl.dylib */; };
+		E2D21E360F4BDDE8000EEA78 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D21E2A0F4BDDCB000EEA78 /* libcurl.dylib */; };
+		E2D21E380F4BDDFC000EEA78 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E2D21E2A0F4BDDCB000EEA78 /* libcurl.dylib */; };
+		E2E3D5FA0E32476F00CFCD0D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3D5F90E32476F00CFCD0D /* SystemConfiguration.framework */; };
+		E2E3D6B40E32478200CFCD0D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3D5F90E32476F00CFCD0D /* SystemConfiguration.framework */; };
+		E2E3D6B50E32478C00CFCD0D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2E3D5F90E32476F00CFCD0D /* SystemConfiguration.framework */; };
+		E2E420F20E46240B00FF7621 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E2E420F10E46240B00FF7621 /* Icon.icns */; };
+		E2E420F30E46240B00FF7621 /* Icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = E2E420F10E46240B00FF7621 /* Icon.icns */; };
+		E2E834FE0E451A870093DDD5 /* FileTransferController_SFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E834FD0E451A870093DDD5 /* FileTransferController_SFTP.m */; };
+		E2E834FF0E451A870093DDD5 /* FileTransferController_SFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E834FD0E451A870093DDD5 /* FileTransferController_SFTP.m */; };
+		E2E835000E451A870093DDD5 /* FileTransferController_SFTP.m in Sources */ = {isa = PBXBuildFile; fileRef = E2E834FD0E451A870093DDD5 /* FileTransferController_SFTP.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23D49B7B0E27F6E30024EB93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD76F960486AA7600D96B5E;
+			remoteInfo = Tool;
+		};
+		E23958800E2858A100FDCF75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E23958770E2857C000FDCF75;
+			remoteInfo = "Preference Pane";
+		};
+		E23958820E2858B000FDCF75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08FB7793FE84155DC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23D49B710E27F6D10024EB93;
+			remoteInfo = Application;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E23958D20E285E3700FDCF75 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		08FB7796FE84155DC02AAC07 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		23529B5C0E4A3F40004715FE /* NSURL+Parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSURL+Parameters.h"; path = "Extensions/NSURL+Parameters.h"; sourceTree = "<group>"; };
+		23529B5D0E4A3F40004715FE /* NSURL+Parameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSURL+Parameters.m"; path = "Extensions/NSURL+Parameters.m"; sourceTree = "<group>"; };
+		23D49B2D0E27F0C20024EB93 /* BackupController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackupController.h; sourceTree = "<group>"; };
+		23D49B2E0E27F0C20024EB93 /* BackupController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackupController.m; sourceTree = "<group>"; };
+		23D49B2F0E27F0C20024EB93 /* DirectoryScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DirectoryScanner.h; path = FileSystem/DirectoryScanner.h; sourceTree = "<group>"; };
+		23D49B300E27F0C20024EB93 /* DirectoryScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DirectoryScanner.m; path = FileSystem/DirectoryScanner.m; sourceTree = "<group>"; };
+		23D49B330E27F0C20024EB93 /* DiskImageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiskImageController.h; path = Utilities/DiskImageController.h; sourceTree = "<group>"; };
+		23D49B340E27F0C20024EB93 /* DiskImageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DiskImageController.m; path = Utilities/DiskImageController.m; sourceTree = "<group>"; };
+		23D49B350E27F0C20024EB93 /* FileTransferController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileTransferController.h; path = FileTransferController/FileTransferController.h; sourceTree = "<group>"; };
+		23D49B360E27F0C20024EB93 /* FileTransferController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTransferController.m; path = FileTransferController/FileTransferController.m; sourceTree = "<group>"; };
+		23D49B370E27F0C20024EB93 /* Keychain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keychain.h; path = Utilities/Keychain.h; sourceTree = "<group>"; };
+		23D49B380E27F0C20024EB93 /* Keychain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Keychain.m; path = Utilities/Keychain.m; sourceTree = "<group>"; };
+		23D49B390E27F0C20024EB93 /* NSData+GZip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+GZip.h"; path = "Extensions/NSData+GZip.h"; sourceTree = "<group>"; };
+		23D49B3A0E27F0C20024EB93 /* NSData+GZip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+GZip.m"; path = "Extensions/NSData+GZip.m"; sourceTree = "<group>"; };
+		23D49B3B0E27F0C20024EB93 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = Utilities/Task.h; sourceTree = "<group>"; };
+		23D49B3C0E27F0C20024EB93 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = Utilities/Task.m; sourceTree = "<group>"; };
+		23D49B720E27F6D10024EB93 /* Mathusalem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mathusalem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D49B990E27F7A00024EB93 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23D49B9F0E27F83C0024EB93 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		23D49C820E27F9960024EB93 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = Application/English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		23D49C950E27FC440024EB93 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
+		23D49C960E27FC440024EB93 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
+		32A70AAB03705E1F00C91783 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		8DD76FA10486AA7600D96B5E /* mathusalem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = mathusalem; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2160C4C0E44ED4F000EF023 /* FileTransferController_FTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTransferController_FTP.m; path = FileTransferController/FileTransferController_FTP.m; sourceTree = "<group>"; };
+		E2160C550E44EDB8000EF023 /* FileTransferController_Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileTransferController_Internal.h; path = FileTransferController/FileTransferController_Internal.h; sourceTree = "<group>"; };
+		E2160C5B0E44EE0F000EF023 /* FileTransferController_HTTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTransferController_HTTP.m; path = FileTransferController/FileTransferController_HTTP.m; sourceTree = "<group>"; };
+		E2160CA20E44EF85000EF023 /* FileTransferController_Local.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTransferController_Local.m; path = FileTransferController/FileTransferController_Local.m; sourceTree = "<group>"; };
+		E21EAEB00E7861DB00D2EC22 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E21EAEB10E78620000D2EC22 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E21EAEB20E78621500D2EC22 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = Application/German.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E21EAEB30E78625000D2EC22 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E21EAEB40E78627200D2EC22 /* German */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = German; path = German.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E21EAEB50E78628800D2EC22 /* German */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = German; path = German.lproj/Mathusalem_PreferencePane.xib; sourceTree = "<group>"; };
+		E22B28EB0E31520900572ADB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E22EB9620E296F78002C2A5C /* Mathusalem_Backup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mathusalem_Backup.h; sourceTree = "<group>"; };
+		E22EB9630E296F78002C2A5C /* Mathusalem_Backup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mathusalem_Backup.m; sourceTree = "<group>"; };
+		E22EBA610E29868A002C2A5C /* Green.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Green.tiff; sourceTree = "<group>"; };
+		E22EBA620E29868A002C2A5C /* Red.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Red.tiff; sourceTree = "<group>"; };
+		E23958670E28573B00FDCF75 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E239586B0E28573B00FDCF75 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/Mathusalem_PreferencePane.xib; sourceTree = "<group>"; };
+		E239586C0E28573B00FDCF75 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E239586D0E28573B00FDCF75 /* Mathusalem_PreferencePane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mathusalem_PreferencePane.h; sourceTree = "<group>"; };
+		E239586E0E28573B00FDCF75 /* Mathusalem_PreferencePane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mathusalem_PreferencePane.m; sourceTree = "<group>"; };
+		E23958710E28576600FDCF75 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E23958780E2857C000FDCF75 /* Mathusalem.prefPane */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Mathusalem.prefPane; sourceTree = BUILT_PRODUCTS_DIR; };
+		E23958870E2858DA00FDCF75 /* PreferencePanes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PreferencePanes.framework; path = System/Library/Frameworks/PreferencePanes.framework; sourceTree = SDKROOT; };
+		E239589C0E285DD400FDCF75 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E23F0F020E1C0BC50076FE7F /* Help.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Help.txt; sourceTree = "<group>"; };
+		E24D27F50E9208DA00E298A9 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = "Xcode-Configurations/Debug.xcconfig"; sourceTree = "<group>"; };
+		E24D27F60E9208DA00E298A9 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = "Xcode-Configurations/Release.xcconfig"; sourceTree = "<group>"; };
+		E26084AE0E97FEC100BCA27C /* libssh2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2.h; sourceTree = "<group>"; };
+		E26084AF0E97FEC100BCA27C /* libssh2_publickey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2_publickey.h; sourceTree = "<group>"; };
+		E26084B00E97FEC100BCA27C /* libssh2_sftp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2_sftp.h; sourceTree = "<group>"; };
+		E26084B20E97FEC100BCA27C /* channel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = channel.c; sourceTree = "<group>"; };
+		E26084B30E97FEC100BCA27C /* comp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = comp.c; sourceTree = "<group>"; };
+		E26084B40E97FEC100BCA27C /* crypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = crypt.c; sourceTree = "<group>"; };
+		E26084B50E97FEC100BCA27C /* hostkey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = hostkey.c; sourceTree = "<group>"; };
+		E26084B60E97FEC100BCA27C /* kex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kex.c; sourceTree = "<group>"; };
+		E26084B90E97FEC100BCA27C /* libssh2_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2_config.h; sourceTree = "<group>"; };
+		E26084BB0E97FEC100BCA27C /* libssh2_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = libssh2_priv.h; sourceTree = "<group>"; };
+		E26084BC0E97FEC100BCA27C /* mac.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mac.c; sourceTree = "<group>"; };
+		E26084C00E97FEC100BCA27C /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		E26084C20E97FEC100BCA27C /* openssl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = openssl.c; sourceTree = "<group>"; };
+		E26084C30E97FEC100BCA27C /* openssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = openssl.h; sourceTree = "<group>"; };
+		E26084C40E97FEC100BCA27C /* packet.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = packet.c; sourceTree = "<group>"; };
+		E26084C50E97FEC100BCA27C /* pem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = pem.c; sourceTree = "<group>"; };
+		E26084C60E97FEC100BCA27C /* publickey.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = publickey.c; sourceTree = "<group>"; };
+		E26084C70E97FEC100BCA27C /* scp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = scp.c; sourceTree = "<group>"; };
+		E26084C80E97FEC100BCA27C /* session.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = session.c; sourceTree = "<group>"; };
+		E26084C90E97FEC100BCA27C /* sftp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sftp.c; sourceTree = "<group>"; };
+		E26084CB0E97FEC100BCA27C /* transport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = transport.c; sourceTree = "<group>"; };
+		E26084CC0E97FEC100BCA27C /* userauth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = userauth.c; sourceTree = "<group>"; };
+		E28606530F28CEE90032DF7D /* DataStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataStream.h; path = Utilities/DataStream.h; sourceTree = "<group>"; };
+		E28606540F28CEE90032DF7D /* DataStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataStream.m; path = Utilities/DataStream.m; sourceTree = "<group>"; };
+		E2890B970E2AF6560085AEE6 /* ValueTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueTransformers.h; sourceTree = "<group>"; };
+		E2890B980E2AF6560085AEE6 /* ValueTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueTransformers.m; sourceTree = "<group>"; };
+		E28E758F0E29221C00FE68CE /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E294A1ED0E25608500E194D5 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = usr/lib/libcrypto.dylib; sourceTree = SDKROOT; };
+		E2ADF72C0E172FB200C0734B /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = System/Library/Frameworks/ApplicationServices.framework; sourceTree = SDKROOT; };
+		E2B39C280E171F7D0047CE46 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		E2BC009C1877A1E500ED7153 /* MiniXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MiniXMLParser.h; path = Utilities/MiniXMLParser.h; sourceTree = "<group>"; };
+		E2BC009D1877A1E500ED7153 /* MiniXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MiniXMLParser.m; path = Utilities/MiniXMLParser.m; sourceTree = "<group>"; };
+		E2BC00A11877A28E00ED7153 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		E2BFF8C30E8DBF8B00086361 /* Support */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Support; sourceTree = "<group>"; };
+		E2C91B4D0E4D0EF4008C034B /* NSData+Encryption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Encryption.h"; path = "Extensions/NSData+Encryption.h"; sourceTree = "<group>"; };
+		E2C91B4E0E4D0EF4008C034B /* NSData+Encryption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Encryption.m"; path = "Extensions/NSData+Encryption.m"; sourceTree = "<group>"; };
+		E2D21E2A0F4BDDCB000EEA78 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcurl.dylib; path = usr/lib/libcurl.dylib; sourceTree = SDKROOT; };
+		E2E3D5F90E32476F00CFCD0D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E2E420F10E46240B00FF7621 /* Icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = Icon.icns; sourceTree = "<group>"; };
+		E2E75D240E18644400DEAEBE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		E2E7B17D0F10C07E0057A9A5 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2E7B17E0F10C0860057A9A5 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E2E7B17F0F10C08D0057A9A5 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = Application/French.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		E2E7B1800F10C0950057A9A5 /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E2E7B1810F10C09B0057A9A5 /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E2E7B1820F10C0A10057A9A5 /* French */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = French; path = French.lproj/Mathusalem_PreferencePane.xib; sourceTree = "<group>"; };
+		E2E834FD0E451A870093DDD5 /* FileTransferController_SFTP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileTransferController_SFTP.m; path = FileTransferController/FileTransferController_SFTP.m; sourceTree = "<group>"; };
+		E2FD10650E901E63007A4958 /* Release-Notes.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "Release-Notes.html"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23D49B700E27F6D10024EB93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E3D5FA0E32476F00CFCD0D /* SystemConfiguration.framework in Frameworks */,
+				23D49C760E27F9240024EB93 /* Security.framework in Frameworks */,
+				23D49BA00E27F83C0024EB93 /* AppKit.framework in Frameworks */,
+				23D49B830E27F7020024EB93 /* libcrypto.dylib in Frameworks */,
+				E2BC00A31877A29C00ED7153 /* libxml2.dylib in Frameworks */,
+				E2D21E360F4BDDE8000EEA78 /* libcurl.dylib in Frameworks */,
+				23D49B820E27F7010024EB93 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F9B0486AA7600D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E3D6B50E32478C00CFCD0D /* SystemConfiguration.framework in Frameworks */,
+				23D49C5C0E27F8BB0024EB93 /* ApplicationServices.framework in Frameworks */,
+				8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */,
+				23D49C5E0E27F8C00024EB93 /* Security.framework in Frameworks */,
+				23D49C600E27F8C50024EB93 /* libcrypto.dylib in Frameworks */,
+				E2BC00A21877A28E00ED7153 /* libxml2.dylib in Frameworks */,
+				E2D21E2B0F4BDDCB000EEA78 /* libcurl.dylib in Frameworks */,
+				23D49C620E27F8C90024EB93 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23958760E2857C000FDCF75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E3D6B40E32478200CFCD0D /* SystemConfiguration.framework in Frameworks */,
+				E23958880E2858DA00FDCF75 /* PreferencePanes.framework in Frameworks */,
+				E22EB9D70E297A65002C2A5C /* Security.framework in Frameworks */,
+				E23958840E2858C400FDCF75 /* AppKit.framework in Frameworks */,
+				E22B28EC0E31520A00572ADB /* WebKit.framework in Frameworks */,
+				E22AE6960E2A92E3001712E6 /* libcrypto.dylib in Frameworks */,
+				E2BC00A41877A2C000ED7153 /* libxml2.dylib in Frameworks */,
+				E2D21E380F4BDDFC000EEA78 /* libcurl.dylib in Frameworks */,
+				E22AE6950E2A92E3001712E6 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* WebDAV */ = {
+			isa = PBXGroup;
+			children = (
+				E2BC00A11877A28E00ED7153 /* libxml2.dylib */,
+				E2FD10650E901E63007A4958 /* Release-Notes.html */,
+				E2BFF8C30E8DBF8B00086361 /* Support */,
+				E23F0F020E1C0BC50076FE7F /* Help.txt */,
+				32A70AAB03705E1F00C91783 /* Prefix.pch */,
+				E2E420F10E46240B00FF7621 /* Icon.icns */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = WebDAV;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				23D49B2D0E27F0C20024EB93 /* BackupController.h */,
+				23D49B2E0E27F0C20024EB93 /* BackupController.m */,
+				23D49B2C0E27F0C20024EB93 /* PolKit */,
+				23D49B980E27F7A00024EB93 /* Application */,
+				E23958650E28573B00FDCF75 /* PreferencePane */,
+				08FB7796FE84155DC02AAC07 /* main.m */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		08FB779DFE84155DC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				E2ADF72C0E172FB200C0734B /* ApplicationServices.framework */,
+				E2B39C280E171F7D0047CE46 /* Security.framework */,
+				E2E3D5F90E32476F00CFCD0D /* SystemConfiguration.framework */,
+				08FB779EFE84155DC02AAC07 /* Foundation.framework */,
+				23D49B9F0E27F83C0024EB93 /* AppKit.framework */,
+				E23958870E2858DA00FDCF75 /* PreferencePanes.framework */,
+				E22B28EB0E31520900572ADB /* WebKit.framework */,
+				E2E75D240E18644400DEAEBE /* libz.dylib */,
+				E294A1ED0E25608500E194D5 /* libcrypto.dylib */,
+				E2D21E2A0F4BDDCB000EEA78 /* libcurl.dylib */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FA10486AA7600D96B5E /* mathusalem */,
+				23D49B720E27F6D10024EB93 /* Mathusalem.app */,
+				E23958780E2857C000FDCF75 /* Mathusalem.prefPane */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23D49B2C0E27F0C20024EB93 /* PolKit */ = {
+			isa = PBXGroup;
+			children = (
+				E24D27F50E9208DA00E298A9 /* Debug.xcconfig */,
+				E24D27F60E9208DA00E298A9 /* Release.xcconfig */,
+				E28606530F28CEE90032DF7D /* DataStream.h */,
+				E28606540F28CEE90032DF7D /* DataStream.m */,
+				23D49B2F0E27F0C20024EB93 /* DirectoryScanner.h */,
+				23D49B300E27F0C20024EB93 /* DirectoryScanner.m */,
+				23D49B330E27F0C20024EB93 /* DiskImageController.h */,
+				23D49B340E27F0C20024EB93 /* DiskImageController.m */,
+				23D49B370E27F0C20024EB93 /* Keychain.h */,
+				23D49B380E27F0C20024EB93 /* Keychain.m */,
+				23D49B3B0E27F0C20024EB93 /* Task.h */,
+				23D49B3C0E27F0C20024EB93 /* Task.m */,
+				23D49B350E27F0C20024EB93 /* FileTransferController.h */,
+				E2160C550E44EDB8000EF023 /* FileTransferController_Internal.h */,
+				23D49B360E27F0C20024EB93 /* FileTransferController.m */,
+				E2160CA20E44EF85000EF023 /* FileTransferController_Local.m */,
+				E2160C5B0E44EE0F000EF023 /* FileTransferController_HTTP.m */,
+				E2160C4C0E44ED4F000EF023 /* FileTransferController_FTP.m */,
+				E2E834FD0E451A870093DDD5 /* FileTransferController_SFTP.m */,
+				E2BC009C1877A1E500ED7153 /* MiniXMLParser.h */,
+				E2BC009D1877A1E500ED7153 /* MiniXMLParser.m */,
+				23529B5C0E4A3F40004715FE /* NSURL+Parameters.h */,
+				23529B5D0E4A3F40004715FE /* NSURL+Parameters.m */,
+				E2C91B4D0E4D0EF4008C034B /* NSData+Encryption.h */,
+				E2C91B4E0E4D0EF4008C034B /* NSData+Encryption.m */,
+				23D49B390E27F0C20024EB93 /* NSData+GZip.h */,
+				23D49B3A0E27F0C20024EB93 /* NSData+GZip.m */,
+				E26084AA0E97FEC100BCA27C /* libssh2-1.0 */,
+			);
+			path = PolKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		23D49B980E27F7A00024EB93 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				23D49C950E27FC440024EB93 /* AppController.h */,
+				23D49C960E27FC440024EB93 /* AppController.m */,
+				23D49B990E27F7A00024EB93 /* Info.plist */,
+				E23958700E28576600FDCF75 /* InfoPlist.strings */,
+				E239589B0E285DD400FDCF75 /* Localizable.strings */,
+				23D49C810E27F9960024EB93 /* MainMenu.xib */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		E23958650E28573B00FDCF75 /* PreferencePane */ = {
+			isa = PBXGroup;
+			children = (
+				E2890B970E2AF6560085AEE6 /* ValueTransformers.h */,
+				E2890B980E2AF6560085AEE6 /* ValueTransformers.m */,
+				E22EB9620E296F78002C2A5C /* Mathusalem_Backup.h */,
+				E22EB9630E296F78002C2A5C /* Mathusalem_Backup.m */,
+				E239586D0E28573B00FDCF75 /* Mathusalem_PreferencePane.h */,
+				E239586E0E28573B00FDCF75 /* Mathusalem_PreferencePane.m */,
+				E22EBA610E29868A002C2A5C /* Green.tiff */,
+				E22EBA620E29868A002C2A5C /* Red.tiff */,
+				E239586C0E28573B00FDCF75 /* Info.plist */,
+				E23958660E28573B00FDCF75 /* InfoPlist.strings */,
+				E28E758E0E29221C00FE68CE /* Localizable.strings */,
+				E239586A0E28573B00FDCF75 /* Mathusalem_PreferencePane.xib */,
+			);
+			path = PreferencePane;
+			sourceTree = "<group>";
+		};
+		E26084AA0E97FEC100BCA27C /* libssh2-1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				E26084AD0E97FEC100BCA27C /* include */,
+				E26084B10E97FEC100BCA27C /* src */,
+			);
+			name = "libssh2-1.0";
+			path = "FileTransferController/libssh2-1.2.4";
+			sourceTree = "<group>";
+		};
+		E26084AD0E97FEC100BCA27C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E26084AE0E97FEC100BCA27C /* libssh2.h */,
+				E26084AF0E97FEC100BCA27C /* libssh2_publickey.h */,
+				E26084B00E97FEC100BCA27C /* libssh2_sftp.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E26084B10E97FEC100BCA27C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E26084B20E97FEC100BCA27C /* channel.c */,
+				E26084B30E97FEC100BCA27C /* comp.c */,
+				E26084B40E97FEC100BCA27C /* crypt.c */,
+				E26084B50E97FEC100BCA27C /* hostkey.c */,
+				E26084B60E97FEC100BCA27C /* kex.c */,
+				E26084B90E97FEC100BCA27C /* libssh2_config.h */,
+				E26084BB0E97FEC100BCA27C /* libssh2_priv.h */,
+				E26084BC0E97FEC100BCA27C /* mac.c */,
+				E26084C00E97FEC100BCA27C /* misc.c */,
+				E26084C20E97FEC100BCA27C /* openssl.c */,
+				E26084C30E97FEC100BCA27C /* openssl.h */,
+				E26084C40E97FEC100BCA27C /* packet.c */,
+				E26084C50E97FEC100BCA27C /* pem.c */,
+				E26084C60E97FEC100BCA27C /* publickey.c */,
+				E26084C70E97FEC100BCA27C /* scp.c */,
+				E26084C80E97FEC100BCA27C /* session.c */,
+				E26084C90E97FEC100BCA27C /* sftp.c */,
+				E26084CB0E97FEC100BCA27C /* transport.c */,
+				E26084CC0E97FEC100BCA27C /* userauth.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23D49B710E27F6D10024EB93 /* Application */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23D49B770E27F6D10024EB93 /* Build configuration list for PBXNativeTarget "Application" */;
+			buildPhases = (
+				23D49C720E27F8E70024EB93 /* Generate Help.h */,
+				23D49B6E0E27F6D10024EB93 /* Resources */,
+				E2EA92AE0E300D3B004CEB0A /* Set Info.plist versions */,
+				23D49B6F0E27F6D10024EB93 /* Sources */,
+				23D49B700E27F6D10024EB93 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Application;
+			productName = Application;
+			productReference = 23D49B720E27F6D10024EB93 /* Mathusalem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DD76F960486AA7600D96B5E /* Tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "Tool" */;
+			buildPhases = (
+				E2C3470A0E357F1B00DAD410 /* Generate Version.h */,
+				E23F0F0B0E1C0CCA0076FE7F /* Generate Help.h */,
+				8DD76F990486AA7600D96B5E /* Sources */,
+				8DD76F9B0486AA7600D96B5E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tool;
+			productInstallPath = "$(HOME)/bin";
+			productName = WebDAV;
+			productReference = 8DD76FA10486AA7600D96B5E /* mathusalem */;
+			productType = "com.apple.product-type.tool";
+		};
+		E23958770E2857C000FDCF75 /* Preference Pane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E239587C0E2857C200FDCF75 /* Build configuration list for PBXNativeTarget "Preference Pane" */;
+			buildPhases = (
+				E23958D20E285E3700FDCF75 /* CopyFiles */,
+				E23958740E2857C000FDCF75 /* Resources */,
+				E2EA93060E3012B5004CEB0A /* Set Info.plist versions */,
+				E23958750E2857C000FDCF75 /* Sources */,
+				E23958760E2857C000FDCF75 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E23958830E2858B000FDCF75 /* PBXTargetDependency */,
+			);
+			name = "Preference Pane";
+			productName = "Preference Pane";
+			productReference = E23958780E2857C000FDCF75 /* Mathusalem.prefPane */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "Mathusalem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* WebDAV */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23D49B780E27F6DF0024EB93 /* Build All */,
+				8DD76F960486AA7600D96B5E /* Tool */,
+				23D49B710E27F6D10024EB93 /* Application */,
+				E23958770E2857C000FDCF75 /* Preference Pane */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23D49B6E0E27F6D10024EB93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D49C830E27F9960024EB93 /* MainMenu.xib in Resources */,
+				E23958720E28576600FDCF75 /* InfoPlist.strings in Resources */,
+				E239589D0E285DD400FDCF75 /* Localizable.strings in Resources */,
+				E2E420F20E46240B00FF7621 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23958740E2857C000FDCF75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23958A00E285DF400FDCF75 /* InfoPlist.strings in Resources */,
+				E23958A10E285DF600FDCF75 /* Mathusalem_PreferencePane.xib in Resources */,
+				E23958A60E285E3200FDCF75 /* Mathusalem.app in Resources */,
+				E28E75900E29221C00FE68CE /* Localizable.strings in Resources */,
+				E22EBA630E29868A002C2A5C /* Green.tiff in Resources */,
+				E22EBA640E29868A002C2A5C /* Red.tiff in Resources */,
+				E2E420F30E46240B00FF7621 /* Icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23D49C720E27F8E70024EB93 /* Generate Help.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Help.txt",
+			);
+			name = "Generate Help.h";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Help.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Fix newline characters in Help.txt and convert to C string\necho 'const char* _help = \"\\' > \"${DERIVED_FILE_DIR}/Help.h\"\n/usr/bin/perl -p -e 's/\\n/\\\\n\\\\\\n/g' \"${SRCROOT}/Help.txt\" >> \"${DERIVED_FILE_DIR}/Help.h\"\necho '\";' >> \"${DERIVED_FILE_DIR}/Help.h\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E23F0F0B0E1C0CCA0076FE7F /* Generate Help.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Help.txt",
+			);
+			name = "Generate Help.h";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Version.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Fix newline characters in Help.txt and convert to C string\necho 'const char* _help = \"\\' > \"${DERIVED_FILE_DIR}/Help.h\"\n/usr/bin/perl -p -e 's/\\n/\\\\n\\\\\\n/g' \"${SRCROOT}/Help.txt\" >> \"${DERIVED_FILE_DIR}/Help.h\"\necho '\";' >> \"${DERIVED_FILE_DIR}/Help.h\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2C3470A0E357F1B00DAD410 /* Generate Version.h */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Version.h";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Version.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "REVISION=`svn info \"${PROJECT_DIR}\"`\nif [[ $? -ne 0 ]]\nthen\n\tVERSION=\"n/a\"\n\tREVISION=\"0\"\nelse\n\tVERSION=`svn propget version \"${PROJECT_FILE_PATH}/project.pbxproj\"`\n\tREVISION=`svn info \"${PROJECT_DIR}\" | grep \"Revision:\" | awk '{ print $2 }'`\nfi\n\n# Generate C string with version and unsigned int with SVN revision\necho \"const char* _version = \\\"$VERSION\\\"; const unsigned int _svnRevision = $REVISION;\" > \"${DERIVED_FILE_DIR}/Version.h\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EA92AE0E300D3B004CEB0A /* Set Info.plist versions */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Set Info.plist versions";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/PolKit/Scripts/ProcessInfoPlists.sh\n";
+			showEnvVarsInLog = 0;
+		};
+		E2EA93060E3012B5004CEB0A /* Set Info.plist versions */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Set Info.plist versions";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/PolKit/Scripts/ProcessInfoPlists.sh\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23D49B6F0E27F6D10024EB93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23D49B850E27F7320024EB93 /* BackupController.m in Sources */,
+				23D49B860E27F7390024EB93 /* DirectoryScanner.m in Sources */,
+				23D49B870E27F73B0024EB93 /* DiskImageController.m in Sources */,
+				23D49B880E27F73C0024EB93 /* FileTransferController.m in Sources */,
+				E2BC009F1877A1E500ED7153 /* MiniXMLParser.m in Sources */,
+				23D49B890E27F73D0024EB93 /* Keychain.m in Sources */,
+				23D49B8A0E27F73E0024EB93 /* NSData+GZip.m in Sources */,
+				23D49B8B0E27F73F0024EB93 /* Task.m in Sources */,
+				23D49B8C0E27F7400024EB93 /* main.m in Sources */,
+				23D49C970E27FC440024EB93 /* AppController.m in Sources */,
+				E2160C4F0E44ED4F000EF023 /* FileTransferController_FTP.m in Sources */,
+				E2160C5E0E44EE0F000EF023 /* FileTransferController_HTTP.m in Sources */,
+				E2160CA50E44EF85000EF023 /* FileTransferController_Local.m in Sources */,
+				E2E834FF0E451A870093DDD5 /* FileTransferController_SFTP.m in Sources */,
+				23529B5F0E4A3F40004715FE /* NSURL+Parameters.m in Sources */,
+				E2C91B500E4D0EF4008C034B /* NSData+Encryption.m in Sources */,
+				E26084E10E97FEC100BCA27C /* channel.c in Sources */,
+				E26084E20E97FEC100BCA27C /* comp.c in Sources */,
+				E26084E30E97FEC100BCA27C /* crypt.c in Sources */,
+				E26084E40E97FEC100BCA27C /* hostkey.c in Sources */,
+				E26084E50E97FEC100BCA27C /* kex.c in Sources */,
+				E26084E80E97FEC100BCA27C /* mac.c in Sources */,
+				E26084EC0E97FEC100BCA27C /* misc.c in Sources */,
+				E26084EE0E97FEC100BCA27C /* openssl.c in Sources */,
+				E26084EF0E97FEC100BCA27C /* packet.c in Sources */,
+				E26084F00E97FEC100BCA27C /* pem.c in Sources */,
+				E26084F10E97FEC100BCA27C /* publickey.c in Sources */,
+				E26084F20E97FEC100BCA27C /* scp.c in Sources */,
+				E26084F30E97FEC100BCA27C /* session.c in Sources */,
+				E26084F40E97FEC100BCA27C /* sftp.c in Sources */,
+				E26084F60E97FEC100BCA27C /* transport.c in Sources */,
+				E26084F70E97FEC100BCA27C /* userauth.c in Sources */,
+				E28606550F28CEE90032DF7D /* DataStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DD76F990486AA7600D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DD76F9A0486AA7600D96B5E /* main.m in Sources */,
+				23D49B3F0E27F0C20024EB93 /* BackupController.m in Sources */,
+				23D49B400E27F0C20024EB93 /* DirectoryScanner.m in Sources */,
+				23D49B420E27F0C20024EB93 /* DiskImageController.m in Sources */,
+				23D49B430E27F0C20024EB93 /* FileTransferController.m in Sources */,
+				23D49B440E27F0C20024EB93 /* Keychain.m in Sources */,
+				23D49B450E27F0C20024EB93 /* NSData+GZip.m in Sources */,
+				23D49B460E27F0C20024EB93 /* Task.m in Sources */,
+				E2160C4E0E44ED4F000EF023 /* FileTransferController_FTP.m in Sources */,
+				E2160C5D0E44EE0F000EF023 /* FileTransferController_HTTP.m in Sources */,
+				E2160CA40E44EF85000EF023 /* FileTransferController_Local.m in Sources */,
+				E2E834FE0E451A870093DDD5 /* FileTransferController_SFTP.m in Sources */,
+				23529B600E4A3F40004715FE /* NSURL+Parameters.m in Sources */,
+				E2C91B510E4D0EF4008C034B /* NSData+Encryption.m in Sources */,
+				E26084CD0E97FEC100BCA27C /* channel.c in Sources */,
+				E26084CE0E97FEC100BCA27C /* comp.c in Sources */,
+				E26084CF0E97FEC100BCA27C /* crypt.c in Sources */,
+				E26084D00E97FEC100BCA27C /* hostkey.c in Sources */,
+				E26084D10E97FEC100BCA27C /* kex.c in Sources */,
+				E26084D30E97FEC100BCA27C /* mac.c in Sources */,
+				E26084D50E97FEC100BCA27C /* misc.c in Sources */,
+				E2BC009E1877A1E500ED7153 /* MiniXMLParser.m in Sources */,
+				E26084D60E97FEC100BCA27C /* openssl.c in Sources */,
+				E26084D70E97FEC100BCA27C /* packet.c in Sources */,
+				E26084D80E97FEC100BCA27C /* pem.c in Sources */,
+				E26084D90E97FEC100BCA27C /* publickey.c in Sources */,
+				E26084DA0E97FEC100BCA27C /* scp.c in Sources */,
+				E26084DB0E97FEC100BCA27C /* session.c in Sources */,
+				E26084DC0E97FEC100BCA27C /* sftp.c in Sources */,
+				E26084DD0E97FEC100BCA27C /* transport.c in Sources */,
+				E26084DE0E97FEC100BCA27C /* userauth.c in Sources */,
+				E28606560F28CEE90032DF7D /* DataStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E23958750E2857C000FDCF75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E23958900E28594000FDCF75 /* Task.m in Sources */,
+				E239589F0E285DF100FDCF75 /* Mathusalem_PreferencePane.m in Sources */,
+				E22EB9640E296F78002C2A5C /* Mathusalem_Backup.m in Sources */,
+				E22EB9CB0E2979C6002C2A5C /* Keychain.m in Sources */,
+				E22AE6890E2A92B9001712E6 /* BackupController.m in Sources */,
+				E22AE68D0E2A92C3001712E6 /* DirectoryScanner.m in Sources */,
+				E22AE68E0E2A92C4001712E6 /* DiskImageController.m in Sources */,
+				E22AE68F0E2A92C5001712E6 /* FileTransferController.m in Sources */,
+				E22AE6940E2A92DC001712E6 /* NSData+GZip.m in Sources */,
+				E2890B990E2AF6560085AEE6 /* ValueTransformers.m in Sources */,
+				E2160C4D0E44ED4F000EF023 /* FileTransferController_FTP.m in Sources */,
+				E2160C5C0E44EE0F000EF023 /* FileTransferController_HTTP.m in Sources */,
+				E2160CA30E44EF85000EF023 /* FileTransferController_Local.m in Sources */,
+				E2E835000E451A870093DDD5 /* FileTransferController_SFTP.m in Sources */,
+				23529B5E0E4A3F40004715FE /* NSURL+Parameters.m in Sources */,
+				E2BC00A01877A1E500ED7153 /* MiniXMLParser.m in Sources */,
+				E2C91B4F0E4D0EF4008C034B /* NSData+Encryption.m in Sources */,
+				E26085220E97FF5D00BCA27C /* channel.c in Sources */,
+				E26085230E97FF5D00BCA27C /* comp.c in Sources */,
+				E26085240E97FF5E00BCA27C /* crypt.c in Sources */,
+				E26085250E97FF5F00BCA27C /* hostkey.c in Sources */,
+				E26085260E97FF5F00BCA27C /* kex.c in Sources */,
+				E26085270E97FF6000BCA27C /* mac.c in Sources */,
+				E26085280E97FF6100BCA27C /* misc.c in Sources */,
+				E26085290E97FF6100BCA27C /* openssl.c in Sources */,
+				E260852A0E97FF6200BCA27C /* packet.c in Sources */,
+				E260852B0E97FF6300BCA27C /* pem.c in Sources */,
+				E260852C0E97FF6300BCA27C /* publickey.c in Sources */,
+				E260852D0E97FF6400BCA27C /* scp.c in Sources */,
+				E260852E0E97FF6400BCA27C /* session.c in Sources */,
+				E260852F0E97FF6500BCA27C /* sftp.c in Sources */,
+				E26085300E97FF6500BCA27C /* transport.c in Sources */,
+				E26085310E97FF6600BCA27C /* userauth.c in Sources */,
+				E28606620F28CF1A0032DF7D /* DataStream.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23D49B7C0E27F6E30024EB93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DD76F960486AA7600D96B5E /* Tool */;
+			targetProxy = 23D49B7B0E27F6E30024EB93 /* PBXContainerItemProxy */;
+		};
+		E23958810E2858A100FDCF75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E23958770E2857C000FDCF75 /* Preference Pane */;
+			targetProxy = E23958800E2858A100FDCF75 /* PBXContainerItemProxy */;
+		};
+		E23958830E2858B000FDCF75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23D49B710E27F6D10024EB93 /* Application */;
+			targetProxy = E23958820E2858B000FDCF75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		23D49C810E27F9960024EB93 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23D49C820E27F9960024EB93 /* English */,
+				E2E7B17F0F10C08D0057A9A5 /* French */,
+				E21EAEB20E78621500D2EC22 /* German */,
+			);
+			name = MainMenu.xib;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		E23958660E28573B00FDCF75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23958670E28573B00FDCF75 /* English */,
+				E2E7B1800F10C0950057A9A5 /* French */,
+				E21EAEB30E78625000D2EC22 /* German */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E239586A0E28573B00FDCF75 /* Mathusalem_PreferencePane.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E239586B0E28573B00FDCF75 /* English */,
+				E2E7B1820F10C0A10057A9A5 /* French */,
+				E21EAEB50E78628800D2EC22 /* German */,
+			);
+			name = Mathusalem_PreferencePane.xib;
+			sourceTree = "<group>";
+		};
+		E23958700E28576600FDCF75 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E23958710E28576600FDCF75 /* English */,
+				E2E7B17D0F10C07E0057A9A5 /* French */,
+				E21EAEB00E7861DB00D2EC22 /* German */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E239589B0E285DD400FDCF75 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E239589C0E285DD400FDCF75 /* English */,
+				E2E7B17E0F10C0860057A9A5 /* French */,
+				E21EAEB10E78620000D2EC22 /* German */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		E28E758E0E29221C00FE68CE /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E28E758F0E29221C00FE68CE /* English */,
+				E2E7B1810F10C09B0057A9A5 /* French */,
+				E21EAEB40E78627200D2EC22 /* German */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB927508733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /;
+				PRODUCT_NAME = mathusalem;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		1DEB927608733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INSTALL_PATH = /;
+				PRODUCT_NAME = mathusalem;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		1DEB927908733DD40010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24D27F50E9208DA00E298A9 /* Debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB927A08733DD40010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E24D27F60E9208DA00E298A9 /* Release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				HEADER_SEARCH_PATHS = "${SDKROOT}/usr/include/libxml2";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		23D49B750E27F6D10024EB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Application/Info.plist;
+				OTHER_CFLAGS = "-D__APPLICATION__";
+				PRODUCT_NAME = Mathusalem;
+			};
+			name = Debug;
+		};
+		23D49B760E27F6D10024EB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Application/Info.plist;
+				OTHER_CFLAGS = "-D__APPLICATION__";
+				PRODUCT_NAME = Mathusalem;
+			};
+			name = Release;
+		};
+		23D49B790E27F6DF0024EB93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Build All";
+			};
+			name = Debug;
+		};
+		23D49B7A0E27F6DF0024EB93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "Build All";
+			};
+			name = Release;
+		};
+		E239587A0E2857C200FDCF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PreferencePane/Info.plist;
+				INSTALL_PATH = /;
+				PRODUCT_NAME = Mathusalem;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Debug;
+		};
+		E239587B0E2857C200FDCF75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PreferencePane/Info.plist;
+				INSTALL_PATH = /;
+				PRODUCT_NAME = Mathusalem;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = prefPane;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB927408733DD40010E9CD /* Build configuration list for PBXNativeTarget "Tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927508733DD40010E9CD /* Debug */,
+				1DEB927608733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB927808733DD40010E9CD /* Build configuration list for PBXProject "Mathusalem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB927908733DD40010E9CD /* Debug */,
+				1DEB927A08733DD40010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D49B770E27F6D10024EB93 /* Build configuration list for PBXNativeTarget "Application" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D49B750E27F6D10024EB93 /* Debug */,
+				23D49B760E27F6D10024EB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23D49B840E27F7240024EB93 /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D49B790E27F6DF0024EB93 /* Debug */,
+				23D49B7A0E27F6DF0024EB93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E239587C0E2857C200FDCF75 /* Build configuration list for PBXNativeTarget "Preference Pane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E239587A0E2857C200FDCF75 /* Debug */,
+				E239587B0E2857C200FDCF75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

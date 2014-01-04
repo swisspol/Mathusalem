@@ -1,0 +1,257 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<title></title>
+	<style type="text/css">
+		body { color: black; background-color: white; margin-left: 10px; margin-right: 10px; margin-top: -10px; margin-bottom: 20px; }
+		p { font-size: 11px; font-family: "Lucida Grande", Arial, sans-serif ; margin-bottom: 8px; }
+		h1 { color: black; font-size: 1.4em; font-family: "Lucida Grande", Arial, sans-serif; font-weight: bold; margin-top: 8px; margin-bottom: 0 }
+		h2 { font-size: 15px; font-family: "Lucida Grande", Arial, sans-serif; margin-top: 0; margin-bottom: 0; }
+		h3 { color: #3c3c3c; font-size: 12px; font-family: "Lucida Grande", Arial, sans-serif; font-weight: normal; margin-top: 0px; }
+		h4 { color: #778fbd; font-size: 14px; font-family: "Lucida Grande", Arial, sans-serif; margin-top: 20px; margin-bottom: 10px; }
+		a { color: #778fbd; font-family: "Lucida Grande", Arial, sans-serif; text-decoration: none; }
+		ul { margin-top: 0; list-style-type: disc; list-style-position: outside; display: inline; }
+		li  { color: #3c3c3c; font-size: 12px; font-family: "Lucida Grande", Arial, sans-serif; text-indent: -6px; margin-top: -10px; margin-bottom: 0px; margin-left: 25px; }
+		div { color: #FF3333; font-size: 12px; font-family: "Lucida Grande", Arial, sans-serif; margin-top: 20px; }
+	</style>
+</head>
+<body>
+	
+	<div>If you are upgrading from Mathusalem <u>1.2 or earlier</u>, scroll to the very bottom of this page for important update information.</div>
+	
+	<h4>Version 1.6</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>FTP support now implements the delete operation</p></li>
+		<li><p>Backup data files are now cached locally for faster history browsing</p></li>
+		<li><p>Added support for Secure Amazon S3 (HTTPS)</p></li>
+		<li><p>French translation</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Requires 1% of extra free space instead of 1Gb on local drive when creating archive so that backup works on small USB keys</p></li>
+		<li><p>Passwords can now contain the '?' character</p></li>
+		<li><p>Backup containing locked files do not fail anymore</p></li>
+		<li><p>Fixed hang that could happen when editing path exclusion lists</p></li>
+		<li><p>Path exclusion lists are now case-insensitive instead of case-sensitive</p></li>
+	</ul>
+	
+	<h4>Version 1.5</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Warn user when creating a backup with the same destination as an already existing one</p></li>
+		<li><p>Now pass source, destination and backup result arguments to pre and post-backup executables</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Improved asynchronous operations reliability in preference pane</p></li>
+		<li><p>Don't abort entire restore operation on single copy or move file failure</p></li>
+		<li><p>Fixed some file copy errors that could happen when creating a segmented backup</p></li>
+		<li><p>Fixed exception being thrown in some cases when creating a segmented backup</p></li>
+		<li><p>Don't backup anything when in full backups mode and the source hasn't changed</p></li>
+	</ul>
+	
+	<h4>Version 1.4</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>German translation by Toni Förster</p></li>
+		<li><p>Added an advanced setting to always perform full backups</p></li>
+		<li><p>Added anonymous registration for active users</p></li>
+		<li><p>Added support for Secure WebDAV (HTTPS)</p></li>
+		<li><p>Improved the "Run when available" schedule mode to include both source and destination</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Make sure to preserve destination path exactly as entered by the user</p></li>
+		<li><p>Fixed editing of schedule hours not working properly with the keyboard</p></li>
+		<li><p>Allow Amazon S3 bucket names containing underscore character</p></li>
+		<li><p>Prevent user from selecting entire disk or user directory as backup source</p></li>
+		<li><p>Fixed "Run Every Weeks on Selected Days at" not remembering time in Schedule pane</p></li>
+	</ul>
+	
+	<h4>Version 1.3</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Added support for pre-backup executable and post-backup executable</p></li>
+		<li><p>Improved error reporting and logging to the console</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Ensure BOM files do not contain entries for items that failed being copied into the backup</p></li>
+		<li><p>Check for local disk free space before starting the backup</p></li>
+		<li><p>Fixed item copy errors that could occur when performing an atomic backup</p></li>
+		<li><p>Fixed a crash that could occur when performing an atomic backup</p></li>
+	</ul>
+	
+	<h4>Version 1.2</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Allow restoration of an entire backup at once</p></li>
+		<li><p>Ask for user confirmation before overwriting items on restoration</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Fixed added items in incremental backup being marked with a revision of "0" instead of "head"</p></li>
+		<li><p>Initial directory for "Restore" button now shows the original item location by default</p></li>
+	</ul>
+	
+	<h4>Version 1.1</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Added support for SMB server destinations</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Fixed crash in iDisk support</p></li>
+	</ul>
+	
+	<h4>Version 1.0</h4>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Minor UI tweaks</p></li>
+	</ul>
+	
+	<h4>Version 1.0b11</h4>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Do not run more than 1 server query simultaneously when displaying history</p></li>
+	</ul>
+	
+	<h4>Version 1.0b10</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Ability to delete the corresponding destination files when deleting a backup</p></li>
+		<li><p>History browser now displays in color changes from the previous revision</p></li>
+		<li><p>Added support for disk image encryption</p></li>
+		<li><p>[Option]-Click on the "Save Backup" button resets base settings to the ones stored at the backup destination</p></li>
+		<li><p>Added a "Don't Run in Low-Priority" advanced setting</p></li>
+		<li><p>Added a "Choose..." button for the custom scratch path</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Restoration of items spanning across multiple revisions now works correctly</p></li>
+		<li><p>Aborting a backup now deletes corresponding destination files</p></li>
+		<li><p>Always require both login and password for SFTP</p></li>
+	</ul>
+	
+	<h4>Version 1.0b9</h4>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Fixed FTP connections failing in some circumstances</p></li>
+	</ul>
+	
+	<h4>Version 1.0b8</h4>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Improved Amazon S3 bucket browsing</p></li>
+	</ul>
+	
+	<h4>Version 1.0b7</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Allow use of custom port number in URLs</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Fixed several issues with usernames and passwords containing special characters</p></li>
+		<li><p>Allow host names not containing any period characters</p></li>
+		<li><p>Fixed passwords not being saved to the keychain in some circumstances</p></li>
+	</ul>
+	
+	<h4>Version 1.0b6</h4>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Fixed a memory corruption bug in the DirectoryScanner class called by the "restore" command (this could lead to random failures)</p></li>
+		<li><p>Properly escape URL user names which contain @ characters</p></li>
+		<li><p>Disable auto-update if Mathusalem preference pane is installed for all users and current user is not admin</p></li>
+	</ul>
+	
+	<h4>Version 1.0b5</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Mathusalem has an icon!</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Minor UI tweaks</p></li>
+	</ul>
+	
+	<h4>Version 1.0b4</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Added support for SFTP server destinations</p></li>
+		<li><p>Added support for AFP server destinations</p></li>
+		<li><p>Exclude hidden files by default for new backups</p></li>
+	</ul>
+	
+	<h4>Version 1.0b3</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Added a choose button to select the local disk destination path</p></li>
+		<li><p>Added a help button that links to the online Mathusalem wiki</p></li>
+		<li><p>Display backup name in application window title</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Fixed launchctl being used incorrectly which prevented the Mathusalem application to access the user's keychain</p></li>
+		<li><p>Tuned options passed to hdiutil</p></li>
+		<li><p>Changing selected days in schedule now correctly marks the backup as edited</p></li>
+	</ul>
+	
+	<h4>Version 1.0b2</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Added new schedule mode to run when destination disk is mounted</p></li>
+		<li><p>Added --checkReachability option</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Improved --foreground mode</p></li>
+	</ul>
+	
+	<h4>Version 1.0b1</h4>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>FTP directory creation now works</p></li>
+		<li><p>Improved FTP upload support</p></li>
+		<li><p>Nicer progress reporting in command line tool mode</p></li>
+	</ul>
+	
+	<h4>Version 1.0a3</h4>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Fixed a crash in the DirectoryScanner class</p></li>
+		<li><p>Version checking now works correctly on first use after System Preferences has replaced the preference pane</p></li>
+		<li><p>The 'info' command now works correctly with the '--plist' option</p></li>
+		<li><p>Minor UI tweaks</p></li>
+	</ul>
+	<h3>Known Issues</h3>
+	<ul>
+		<li><p>FTP support is not fully robust yet (there might be issues with some servers)</p></li>
+	</ul>
+	
+	<h4>Version 1.0a2</h4>
+	<h3>New Features</h3>
+	<ul>
+		<li><p>Allow source path to change between incremental backups</p></li>
+	</ul>
+	<h3>Bug Fixes</h3>
+	<ul>
+		<li><p>Do not allow archive format to change between incremental backups</p></li>
+		<li><p>Minor UI tweaks</p></li>
+	</ul>
+	<h3>Known Issues</h3>
+	<ul>
+		<li><p>FTP support is not fully robust yet (there might be issues with some servers)</p></li>
+	</ul>
+	
+	<h4>Version 1.0a1</h4>
+	<p>First private release</p>
+	
+	<div><b>IMPORTANT INFORMATION:</b> Incremental backups generated by versions of Mathusalem <u>earlier than 1.2</u> may have incorrect information in the data files (.xml.gz) for some entries, and this can make Mathusalem fail when restoring the corresponding items. However, the archive files (.dmg, .zip, .cpio) are correct, so if you open them directly in the Finder, you can still extract all the items fine.<br/>
+	To put these pre-1.2 backups back into a fully correct state, you must delete all the incremental backups at the destination (i.e. all files with "Revision-00002" or bigger), while preserving the initial backup (i.e. "Revision-00001").</div>
+	
+</body>
+</html>
